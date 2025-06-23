@@ -1,0 +1,363 @@
+{
+  "common": {
+    "appName": "TachlesAI",
+    "tagline": "Your Personal Study Assistant",
+    "login": "Login",
+    "signup": "Sign Up",
+    "getStarted": "Get Started Free",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "delete": "Delete",
+    "edit": "Edit",
+    "success": "Success"
+  },
+  "auth": {
+    "loginTitle": "Login",
+    "loginDesc": "Enter your credentials to access your notebooks",
+    "signupTitle": "Sign Up",
+    "signupDesc": "Create a new account to start using TachlesAI",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordPlaceholder": "Enter your password again",
+    "fullNamePlaceholder": "Enter your full name",
+    "createPasswordPlaceholder": "Create a password (min 6 characters)",
+    "loggingIn": "Logging in...",
+    "signingUp": "Signing up...",
+    "loginButton": "Login",
+    "signupButton": "Sign Up",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "userExists": "User with this email already exists. Try logging in instead.",
+    "invalidCredentials": "Invalid email or password. Please check your details and try again.",
+    "emailNotConfirmed": "Please check your email and click the confirmation link before logging in.",
+    "signupSuccess": "Signed up successfully!",
+    "signupSuccessMessage": "Please check your email and click the confirmation link to complete registration.",
+    "welcomeBack": "Welcome back!",
+    "loginSuccess": "You have successfully logged in."
+  },
+  "dashboard": {
+    "welcome": "Welcome to TachlesAI",
+    "authError": "Authentication error",
+    "retry": "Retry",
+    "loadingNotebooks": "Loading notebooks...",
+    "loadError": "Error loading notebooks",
+    "createFirstNotebook": "Create your first notebook",
+    "emptyDescription": "TachlesAI is an AI-powered research and writing assistant that works best with the sources you upload",
+    "creating": "Creating...",
+    "createNew": "+ Create new",
+    "createNotebook": "Create notebook",
+    "untitledNotebook": "Untitled notebook",
+    "signOut": "Sign Out",
+    "sort": {
+      "recent": "Most recent",
+      "title": "Title"
+    },
+    "source": "source",
+    "sources": "sources",
+    "sourceTypes": {
+      "pdfs": "PDFs",
+      "pdfsDesc": "Upload research papers, reports, and documents",
+      "websites": "Websites",
+      "websitesDesc": "Add web pages and online articles as sources",
+      "audio": "Audio",
+      "audioDesc": "Include multimedia content in your research"
+    },
+    "deleteNotebook": {
+      "title": "Delete this notebook?",
+      "description": "You're about to delete this notebook and all of its content. This cannot be undone.",
+      "deleting": "Deleting...",
+      "confirm": "Delete"
+    }
+  },
+  "notebook": {
+    "untitledNotebook": "Untitled Notebook",
+    "generating": "Generating content...",
+    "aiAnalyzing": "AI is analyzing your source and generating a title and description...",
+    "noDescription": "No description available for this notebook.",
+    "source": "source",
+    "sources": "sources",
+    "tabs": {
+      "sources": "Sources",
+      "chat": "Chat",
+      "notes": "Notes"
+    },
+    "chat": {
+      "title": "Chat",
+      "clearing": "Clearing...",
+      "clearChat": "Clear Chat",
+      "uploadToStart": "Upload a source to get started...",
+      "waitForProcessing": "Please wait while your sources are being processed...",
+      "startTyping": "Start typing...",
+      "addSourceToStart": "Add a source to get started",
+      "uploadSource": "Upload a source",
+      "disclaimer": "TachlesAI can be inaccurate; please double-check its responses."
+    },
+    "sources": {
+      "title": "Sources",
+      "add": "Add",
+      "loading": "Loading sources...",
+      "emptyTitle": "Saved sources will appear here",
+      "emptyDesc": "Click Add source above to add PDFs, text, or audio files.",
+      "renameSource": "Rename source",
+      "removeSource": "Remove source",
+      "deleteTitle": "Delete {{name}}?",
+      "deleteDesc": "You're about to delete this source. This cannot be undone.",
+      "deleting": "Deleting...",
+      "delete": "Delete",
+      "error": "Error",
+      "noNotebook": "No notebook selected",
+      "filesAdded": "Files Added",
+      "filesAddedDesc": "{{count}} file added and processing started",
+      "filesAddedDesc_plural": "{{count}} files added and processing started",
+      "processingIssues": "Processing Issues",
+      "processingIssuesDesc": "{{count}} file had processing issues. Check the sources list for details.",
+      "processingIssuesDesc_plural": "{{count}} files had processing issues. Check the sources list for details.",
+      "failedToAdd": "Failed to add files. Please try again.",
+      "textAddedSuccess": "Text has been added and sent for processing",
+      "textAddedError": "Failed to add text source",
+      "websitesAddedSuccess": "{{count}} website added and sent for processing",
+      "websitesAddedSuccess_plural": "{{count}} websites added and sent for processing",
+      "websitesAddedError": "Failed to add websites",
+      "addSources": "Add sources",
+      "addSourcesDesc": "Sources let TachlesAI base its responses on the information that matters most to you.",
+      "addSourcesExamples": "(Examples: marketing plans, course reading, research notes, meeting transcripts, sales documents, etc.)",
+      "processingFiles": "Processing files...",
+      "uploadSources": "Upload sources",
+      "pleaseWait": "Please wait while we process your files",
+      "dragAndDrop": "Drag & drop or",
+      "chooseFile": "choose file",
+      "toUpload": "to upload",
+      "supportedTypes": "Supported file types: PDF, txt, Markdown, Audio (e.g. mp3)",
+      "linkWebsite": "Link - Website",
+      "multipleUrls": "Multiple URLs at once",
+      "pasteText": "Paste Text - Copied Text",
+      "addCopiedContent": "Add copied content",
+      "addCopiedText": "Add Copied Text",
+      "clipboardReadDesc": "This dialog automatically reads from your clipboard. You can also manually paste content below.",
+      "title": "Title",
+      "titlePlaceholder": "Enter a title for this content...",
+      "content": "Content",
+      "contentPlaceholder": "Your copied content will appear here...",
+      "characters": "characters",
+      "largeContent": "Large content may take longer to process",
+      "adding": "Adding...",
+      "addMultipleWebsites": "Add Multiple Website URLs",
+      "websiteUrls": "Website URLs",
+      "websiteUrlsDesc": "Enter multiple website URLs, one per line. Each URL will be scraped as a separate source.",
+      "urlsPlaceholder": "Enter URLs one per line, for example:\nhttps://example.com\nhttps://another-site.com\nhttps://third-website.org",
+      "urlsDetected": "{{count}} URL detected",
+      "urlsDetected_plural": "{{count}} URLs detected",
+      "addWebsites": "Add {{count}} Website",
+      "addWebsites_plural": "Add {{count}} Websites",
+      "website": "Website",
+      "sourceName": "Source Name *",
+      "sourceNamePlaceholder": "Enter source name",
+      "renameTitle": "Rename {{name}}?",
+      "renameDesc": "Enter a new name for this source."
+    },
+    "studio": {
+      "title": "Studio",
+      "audio": {
+        "title": "Audio Overview",
+        "deepDive": "Deep Dive conversation",
+        "twoHosts": "Two hosts",
+        "refreshingUrl": "Refreshing URL...",
+        "updatingAccess": "Updating audio access",
+        "generating": "Generating audio...",
+        "takesTime": "This may take a few minutes",
+        "failed": "Generation failed",
+        "tryAgain": "Please try again",
+        "ready": "Ready to play",
+        "available": "Audio overview available",
+        "unavailable": "Audio unavailable",
+        "retry": "Retry",
+        "generate": "Generate",
+        "downloadStarted": "Download Started",
+        "downloadStartedDesc": "Your audio file is being downloaded.",
+        "downloadFailed": "Download Failed",
+        "downloadFailedDesc": "Failed to download the audio file. Please try again.",
+        "error": "Error",
+        "cannotDelete": "Cannot delete audio - notebook ID not found",
+        "deleted": "Audio Deleted",
+        "deletedDesc": "The audio overview and associated files have been successfully deleted.",
+        "deleteFailed": "Delete Failed",
+        "deleteFailedDesc": "Failed to delete the audio overview. Please try again.",
+        "downloading": "Downloading...",
+        "download": "Download",
+        "refreshingAccess": "Refreshing audio access...",
+        "failedToLoad": "Failed to load audio",
+        "playbackFailed": "Playback failed"
+      },
+      "notes": {
+        "title": "Notes",
+        "addNote": "Add note",
+        "loading": "Loading notes...",
+        "emptyTitle": "Saved notes will appear here",
+        "emptyDesc": "Save a chat message to create a new note, or click Add note above.",
+        "aiResponse": "AI Response",
+        "note": "Note",
+        "editNote": "Edit Note",
+        "newNote": "New Note",
+        "noteTitlePlaceholder": "Note title",
+        "writeNotePlaceholder": "Write your note here...",
+        "generating": "Generating...",
+        "generateTitle": "Generate Title",
+        "saving": "Saving...",
+        "saveToNote": "Save to note"
+      }
+    }
+  },
+  "landing": {
+    "hero": {
+      "painHeader": "Studying the night before the exam again?",
+      "painSubheader": "Another deadline approaching, coffee running out, and your iPhone Notes look like a jumbled mess.",
+      "painCallout": "Stop. You don't need to suffer to succeed.",
+      "mainTitle": "TachlesAI – Your Personal AI-Powered Study Assistant",
+      "mainDesc": "Smart chat, podcast summaries, note-taking, smart summaries, file and video uploads – all in one place.",
+      "startFreeButton": "Start Free Now",
+      "watchDemoButton": "Watch Demo"
+    },
+    "painPoints": {
+      "title": "Daily Student Struggles",
+      "items": [
+        {
+          "pain": "Hours of transcribing endless lectures",
+          "impact": "Wastes time and diminishes focus"
+        },
+        {
+          "pain": "Material overload before exams",
+          "impact": "Creates stress and paralyzes action"
+        },
+        {
+          "pain": "Knowledge scattered across PDFs, videos, audio, and notes",
+          "impact": "Lowers grades and creates gaps in understanding"
+        },
+        {
+          "pain": "Lack of immediate help when something isn't clear",
+          "impact": "Leads to procrastination and giving up on material"
+        }
+      ]
+    },
+    "empathy": {
+      "title": "We're With You – Real Empathy",
+      "desc1": "We're also tired of cramming under pressure, juggling between Excel sheets and notebooks, and feeling like there's never enough time.",
+      "desc2": "TachlesAI was built by students, for students. We know the pain firsthand – and we've solved it with code."
+    },
+    "results": {
+      "title": "Results Our Students Are Already Seeing",
+      "stats": [
+        { "stat": "32%", "desc": "Less average time spent preparing summaries" },
+        { "stat": "21 pts", "desc": "Average course grade improvement after two months" },
+        { "stat": "84%", "desc": "Listen to podcasts on the way to university" },
+        { "stat": "94%", "desc": "Reported significant reduction in pre-exam stress" }
+      ]
+    },
+    "solution": {
+      "title": "The Solution – TachlesAI Fights the Information Monster for You",
+      "features": [
+        {
+          "title": "Smart Chat",
+          "desc": "Ask a question, get an answer quoted directly from your material."
+        },
+        {
+          "title": "Summaries-On-Demand",
+          "desc": "Upload a PDF or video, get a readable summary in seconds."
+        },
+        {
+          "title": "Podcast Builder",
+          "desc": "Creates a custom audio file for your material, so you can learn on the go."
+        },
+        {
+          "title": "Notes & Mind Maps",
+          "desc": "That automatically correct themselves based on your questions."
+        }
+      ],
+      "feelingDesc": "Imagine entering an exam relaxed, without the anxiety of \"what did I miss?\" – TachlesAI has your back behind the scenes."
+    },
+    "howItWorks": {
+      "title": "How It Works – 3 Steps to Get Started",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Upload Material",
+          "desc": "Files, links from NotebookLM, YouTube, whatever you want."
+        },
+        {
+          "step": "2", 
+          "title": "AI Analyzes",
+          "desc": "Advanced RAG language and vision models build your personal knowledge base."
+        },
+        {
+          "step": "3",
+          "title": "Learn Smart",
+          "desc": "Chat, summaries, podcasts, and flashcards customized in real-time."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Pricing – Transparent as a Course Grade",
+      "mostPopular": "Most Popular",
+      "plans": [
+        {
+          "name": "Free",
+          "suitable": "First Semester",
+          "features": ["3 courses", "1 GB files", "30 min podcast"],
+          "price": "$0",
+          "buttonText": "Start Free"
+        },
+        {
+          "name": "Pro",
+          "suitable": "Exam Marathon",
+          "features": ["Unlimited", "20 GB", "Audio + Mind-Map", "Automatic Flashcards"],
+          "price": "$7.99",
+          "buttonText": "Choose Plan"
+        },
+        {
+          "name": "Team",
+          "suitable": "Study Groups / Colleges",
+          "features": ["+ Team management", "Real-time sharing", "API"],
+          "price": "From $4.99 per user",
+          "buttonText": "Choose Plan"
+        }
+      ],
+      "disclaimer": "*Student discounts, annual payment discount, and cancel anytime."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "q": "Does TachlesAI replace real learning?",
+          "a": "No. It cuts technical tasks and frees up time for active learning."
+        },
+        {
+          "q": "Does it work in English only?",
+          "a": "Supports Hebrew, Russian, Arabic, and English, including bilingual transcription."
+        },
+        {
+          "q": "How long does it take to create a podcast?",
+          "a": "About 60 seconds for 10 PDF pages on average."
+        },
+        {
+          "q": "Can I cancel at any time?",
+          "a": "Absolutely."
+        }
+      ]
+    },
+    "cta": {
+      "title": "No More All-Nighters – Join Now",
+      "desc": "Click \"Start Free\" and let AI watch your back this semester.",
+      "buttonText": "Start Free Now"
+    },
+    "footer": {
+      "copyright": "All rights reserved.",
+      "tagline": "Built with ❤️ by students, for students"
+    }
+  }
+}

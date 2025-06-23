@@ -1,0 +1,360 @@
+{
+  "common": {
+    "appName": "TachlesAI",
+    "tagline": "העוזר הלימודי הפרטי שלך",
+    "login": "התחבר",
+    "signup": "הרשם",
+    "getStarted": "התחל בחינם",
+    "backToHome": "חזור לעמוד הבית",
+    "loading": "טוען...",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "saving": "שומר...",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "success": "הצלחה"
+  },
+  "auth": {
+    "loginTitle": "התחברות",
+    "loginDesc": "הזן את פרטי ההתחברות שלך כדי לגשת למחברות שלך",
+    "signupTitle": "הרשמה",
+    "signupDesc": "צור חשבון חדש כדי להתחיל להשתמש ב-TachlesAI",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "confirmPassword": "אימות סיסמה",
+    "fullName": "שם מלא",
+    "emailPlaceholder": "הזן את האימייל שלך",
+    "passwordPlaceholder": "הזן את הסיסמה שלך",
+    "confirmPasswordPlaceholder": "הזן את הסיסמה שוב",
+    "fullNamePlaceholder": "הזן את שמך המלא",
+    "createPasswordPlaceholder": "צור סיסמה (לפחות 6 תווים)",
+    "loggingIn": "מתחבר...",
+    "signingUp": "נרשם...",
+    "loginButton": "התחבר",
+    "signupButton": "הרשם",
+    "passwordMismatch": "הסיסמאות אינן תואמות",
+    "passwordTooShort": "הסיסמה חייבת להכיל לפחות 6 תווים",
+    "userExists": "משתמש עם אימייל זה כבר קיים במערכת. נסה להתחבר במקום.",
+    "invalidCredentials": "אימייל או סיסמה שגויים. אנא בדוק את הפרטים ונסה שוב.",
+    "emailNotConfirmed": "אנא בדוק את האימייל שלך ולחץ על קישור האימות לפני ההתחברות.",
+    "signupSuccess": "נרשמת בהצלחה!",
+    "signupSuccessMessage": "אנא בדוק את האימייל שלך ולחץ על קישור האימות כדי להשלים את ההרשמה.",
+    "welcomeBack": "ברוך הבא!",
+    "loginSuccess": "התחברת בהצלחה למערכת."
+  },
+  "dashboard": {
+    "welcome": "ברוך הבא ל-TachlesAI",
+    "authError": "שגיאת אימות",
+    "retry": "נסה שוב",
+    "loadingNotebooks": "טוען מחברות...",
+    "loadError": "שגיאה בטעינת מחברות",
+    "createFirstNotebook": "צור את המחברת הראשונה שלך",
+    "emptyDescription": "TachlesAI הוא עוזר מחקר וכתיבה מופעל בבינה מלאכותית שעובד הכי טוב עם המקורות שאתה מעלה",
+    "creating": "יוצר...",
+    "createNew": "+ צור חדש",
+    "createNotebook": "צור מחברת",
+    "untitledNotebook": "מחברת ללא כותרת",
+    "signOut": "התנתק",
+    "sort": {
+      "recent": "הכי חדש",
+      "title": "כותרת"
+    },
+    "source": "מקור",
+    "sources": "מקורות",
+    "sourceTypes": {
+      "pdfs": "קבצי PDF",
+      "pdfsDesc": "העלה מאמרי מחקר, דוחות ומסמכים",
+      "websites": "אתרי אינטרנט",
+      "websitesDesc": "הוסף דפי אינטרנט ומאמרים מקוונים כמקורות",
+      "audio": "אודיו",
+      "audioDesc": "כלול תוכן מולטימדיה במחקר שלך"
+    },
+    "deleteNotebook": {
+      "title": "למחוק מחברת זו?",
+      "description": "אתה עומד למחוק מחברת זו ואת כל התוכן שלה. פעולה זו לא ניתנת לביטול.",
+      "deleting": "מוחק...",
+      "confirm": "מחק"
+    }
+  },
+  "notebook": {
+    "untitledNotebook": "מחברת ללא כותרת",
+    "generating": "מייצר תוכן...",
+    "aiAnalyzing": "בינה מלאכותית מנתחת את המקור שלך ומייצרת כותרת ותיאור...",
+    "noDescription": "אין תיאור זמין למחברת זו.",
+    "source": "מקור",
+    "sources": "מקורות",
+    "tabs": {
+      "sources": "מקורות",
+      "chat": "צ'אט",
+      "notes": "הערות"
+    },
+    "chat": {
+      "title": "צ'אט",
+      "clearing": "מנקה...",
+      "clearChat": "נקה צ'אט",
+      "uploadToStart": "העלה מקור כדי להתחיל...",
+      "waitForProcessing": "אנא המתן בזמן שהמקורות שלך מעובדים...",
+      "startTyping": "התחל להקליד...",
+      "addSourceToStart": "הוסף מקור כדי להתחיל",
+      "uploadSource": "העלה מקור",
+      "disclaimer": "TachlesAI עלול להיות לא מדויק; אנא בדוק את תשובותיו."
+    },
+    "sources": {
+      "title": "מקורות",
+      "add": "הוסף",
+      "loading": "טוען מקורות...",
+      "emptyTitle": "מקורות שמורים יופיעו כאן",
+      "emptyDesc": "לחץ על הוסף מקור למעלה כדי להוסיף קבצי PDF, טקסט או קבצי אודיו.",
+      "renameSource": "שנה שם מקור",
+      "removeSource": "הסר מקור",
+      "deleteTitle": "למחוק את {{name}}?",
+      "deleteDesc": "אתה עומד למחוק מקור זה. פעולה זו לא ניתנת לביטול.",
+      "deleting": "מוחק...",
+      "delete": "מחק",
+      "error": "שגיאה",
+      "noNotebook": "לא נבחרה מחברת",
+      "filesAdded": "קבצים נוספו",
+      "filesAddedDesc": "{{count}} קבצים נוספו ועיבוד החל",
+      "processingIssues": "בעיות בעיבוד",
+      "processingIssuesDesc": "{{count}} קבצים נתקלו בבעיות עיבוד. בדוק את רשימת המקורות לפרטים.",
+      "failedToAdd": "נכשל בהוספת קבצים. אנא נסה שוב.",
+      "textAddedSuccess": "טקסט נוסף ונשלח לעיבוד",
+      "textAddedError": "נכשל בהוספת מקור טקסט",
+      "websitesAddedSuccess": "{{count}} אתרים נוספו ונשלחו לעיבוד",
+      "websitesAddedError": "נכשל בהוספת אתרים",
+      "addSources": "הוסף מקורות",
+      "addSourcesDesc": "מקורות מאפשרים ל-TachlesAI לבסס את תשובותיו על המידע החשוב ביותר עבורך.",
+      "addSourcesExamples": "(דוגמאות: תוכניות שיווק, חומרי קריאה לקורס, הערות מחקר, תמלולי פגישות, מסמכי מכירות וכו')",
+      "processingFiles": "מעבד קבצים...",
+      "uploadSources": "העלה מקורות",
+      "pleaseWait": "אנא המתן בזמן שאנו מעבדים את הקבצים שלך",
+      "dragAndDrop": "גרור ושחרר או",
+      "chooseFile": "בחר קובץ",
+      "toUpload": "להעלאה",
+      "supportedTypes": "סוגי קבצים נתמכים: PDF, txt, Markdown, Audio (למשל mp3)",
+      "linkWebsite": "קישור - אתר אינטרנט",
+      "multipleUrls": "מספר כתובות URL בבת אחת",
+      "pasteText": "הדבק טקסט - טקסט מועתק",
+      "addCopiedContent": "הוסף תוכן מועתק",
+      "addCopiedText": "הוסף טקסט מועתק",
+      "clipboardReadDesc": "דיאלוג זה קורא אוטומטית מהלוח שלך. אתה יכול גם להדביק תוכן ידנית למטה.",
+      "title": "כותרת",
+      "titlePlaceholder": "הזן כותרת לתוכן זה...",
+      "content": "תוכן",
+      "contentPlaceholder": "התוכן המועתק שלך יופיע כאן...",
+      "characters": "תווים",
+      "largeContent": "תוכן גדול עשוי לקחת זמן רב יותר לעיבוד",
+      "adding": "מוסיף...",
+      "addMultipleWebsites": "הוסף מספר אתרי אינטרנט",
+      "websiteUrls": "כתובות URL של אתרים",
+      "websiteUrlsDesc": "הזן מספר כתובות URL של אתרים, אחת בכל שורה. כל כתובת URL תיסרק כמקור נפרד.",
+      "urlsPlaceholder": "הזן כתובות URL אחת בכל שורה, לדוגמה:\nhttps://example.com\nhttps://another-site.com\nhttps://third-website.org",
+      "urlsDetected": "{{count}} כתובת URL זוהתה",
+      "urlsDetected_plural": "{{count}} כתובות URL זוהו",
+      "addWebsites": "הוסף {{count}} אתר",
+      "addWebsites_plural": "הוסף {{count}} אתרים",
+      "website": "אתר",
+      "sourceName": "שם מקור *",
+      "sourceNamePlaceholder": "הזן שם מקור",
+      "renameTitle": "שנה שם {{name}}?",
+      "renameDesc": "הזן שם חדש למקור זה."
+    },
+    "studio": {
+      "title": "סטודיו",
+      "audio": {
+        "title": "סקירת אודיו",
+        "deepDive": "שיחת עומק",
+        "twoHosts": "שני מנחים",
+        "refreshingUrl": "מרענן URL...",
+        "updatingAccess": "מעדכן גישה לאודיו",
+        "generating": "מייצר אודיו...",
+        "takesTime": "זה עשוי לקחת מספר דקות",
+        "failed": "הייצור נכשל",
+        "tryAgain": "אנא נסה שוב",
+        "ready": "מוכן לניגון",
+        "available": "סקירת אודיו זמינה",
+        "unavailable": "אודיו לא זמין",
+        "retry": "נסה שוב",
+        "generate": "צור",
+        "downloadStarted": "ההורדה החלה",
+        "downloadStartedDesc": "קובץ האודיו שלך מורד.",
+        "downloadFailed": "ההורדה נכשלה",
+        "downloadFailedDesc": "נכשל בהורדת קובץ האודיו. אנא נסה שוב.",
+        "error": "שגיאה",
+        "cannotDelete": "לא ניתן למחוק אודיו - מזהה מחברת לא נמצא",
+        "deleted": "אודיו נמחק",
+        "deletedDesc": "סקירת האודיו וקבצים קשורים נמחקו בהצלחה.",
+        "deleteFailed": "המחיקה נכשלה",
+        "deleteFailedDesc": "נכשל במחיקת סקירת האודיו. אנא נסה שוב.",
+        "downloading": "מוריד...",
+        "download": "הורד",
+        "refreshingAccess": "מרענן גישה לאודיו...",
+        "failedToLoad": "נכשל בטעינת אודיו",
+        "playbackFailed": "הניגון נכשל"
+      },
+      "notes": {
+        "title": "הערות",
+        "addNote": "הוסף הערה",
+        "loading": "טוען הערות...",
+        "emptyTitle": "הערות שמורות יופיעו כאן",
+        "emptyDesc": "שמור הודעת צ'אט כדי ליצור הערה חדשה, או לחץ על הוסף הערה למעלה.",
+        "aiResponse": "תשובת AI",
+        "note": "הערה",
+        "editNote": "ערוך הערה",
+        "newNote": "הערה חדשה",
+        "noteTitlePlaceholder": "כותרת הערה",
+        "writeNotePlaceholder": "כתוב את ההערה שלך כאן...",
+        "generating": "מייצר...",
+        "generateTitle": "צור כותרת",
+        "saving": "שומר...",
+        "saveToNote": "שמור להערה"
+      }
+    }
+  },
+  "landing": {
+    "hero": {
+      "painHeader": "שוב מצאת את עצמך לומד בלילה שלפני המבחן?",
+      "painSubheader": "עוד דד־ליין מתקרב, הקפה נגמר, וה־Notes באייפון נראה כמו סלט קופסה.",
+      "painCallout": "עצור. אתה לא צריך לסבול כדי להצליח.",
+      "mainTitle": "TachlesAI – העוזר הלימודי הפרטי שלך, מופעל ב-AI",
+      "mainDesc": "צ'אט חכם, פודקאסט-תקצירים, כתיבת פתקים, סיכומים חכמים, העלאת קבצים וסרטונים – והכול במקום אחד.",
+      "startFreeButton": "התחל בחינם עכשיו",
+      "watchDemoButton": "צפה בדמו"
+    },
+    "painPoints": {
+      "title": "כאבים יומיומיים של סטודנטים",
+      "items": [
+        {
+          "pain": "שעות תמלול והרצאות שלא מסתיימות",
+          "impact": "מבזבז זמן ופוגם בריכוז"
+        },
+        {
+          "pain": "Overload של חומר לקראת מבחן",
+          "impact": "יוצר סטרס ומשתק עשייה"
+        },
+        {
+          "pain": "פיזור ידע בין PDF, וידאו, אודיו ופתקים",
+          "impact": "מפיל ציונים ויוצר חורים בהבנה"
+        },
+        {
+          "pain": "חוסר עזרה מיידית כשמשהו לא ברור",
+          "impact": "גורם לדחיינות ולוויתור על חומר"
+        }
+      ]
+    },
+    "empathy": {
+      "title": "אנחנו איתך – אמפתיה אמיתית",
+      "desc1": "גם לנו נמאס לשנן בלחץ, להתפזר בין טבלאות אקסל ומחברות, ולהרגיש שתמיד חסר עוד־מעט-זמן.",
+      "desc2": "TachlesAI נבנה על-ידי סטודנטים, למען סטודנטים. אנחנו מכירים את הכאב מקרוב – ופתרנו אותו בקוד."
+    },
+    "results": {
+      "title": "תוצאות שהסטודנטים שלנו כבר רואים",
+      "stats": [
+        { "stat": "32%", "desc": "פחות זמן ממוצע להכנת סיכומים" },
+        { "stat": "21 נק'", "desc": "שיפור בציון הקורס הממוצע אחרי חודשיים" },
+        { "stat": "84%", "desc": "מאזינים לפודקאסט בדרך לאוניברסיטה" },
+        { "stat": "94%", "desc": "דיווחו על ירידה משמעותית בלחץ לפני בחינות" }
+      ]
+    },
+    "solution": {
+      "title": "הפתרון – TachlesAI נלחם במפלצת המידע בשבילך",
+      "features": [
+        {
+          "title": "צ'אט חכם",
+          "desc": "תשאל שאלה, קבל תשובה מצוטטת ישירות מהחומר שלך."
+        },
+        {
+          "title": "Summaries-On-Demand",
+          "desc": "העלה PDF או וידאו, קבל סיכום קריא תוך שניות."
+        },
+        {
+          "title": "Podcast Builder",
+          "desc": "יוצר קובץ שמע מותאם אישית לחומר שלך, כך שתלמד בדרך."
+        },
+        {
+          "title": "פתקים ומיינד-מפס",
+          "desc": "המתקנים את עצמם אוטומטית לפי שאלותיך."
+        }
+      ],
+      "feelingDesc": "דמיין להיכנס למבחן רגוע, בלי חרדת-\"מה פספסתי?\" – TachlesAI שומר עליך מאחור הקלעים."
+    },
+    "howItWorks": {
+      "title": "איך זה עובד? – 3 צעדים ומתחילים",
+      "steps": [
+        {
+          "step": "1",
+          "title": "מעלים חומר",
+          "desc": "קבצים, לינקים מנוטבוק LM, YouTube, מה שתרצה."
+        },
+        {
+          "step": "2", 
+          "title": "AI מנתח",
+          "desc": "מודלי שפה וראייה ב-RAG מתקדם בונים בסיס ידע אישי."
+        },
+        {
+          "step": "3",
+          "title": "לומדים חכם",
+          "desc": "צ'אט, סיכומים, פודקאסטים ופלש-קארדס מותאמים בזמן אמת."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "תמחור – שקוף כמו ציון בקורס",
+      "mostPopular": "הכי פופולרי",
+      "plans": [
+        {
+          "name": "Free",
+          "suitable": "סמסטר ראשון",
+          "features": ["3 קורסים", "1 GB קבצים", "30 ד' פודקאסט"],
+          "price": "₪0",
+          "buttonText": "התחל בחינם"
+        },
+        {
+          "name": "Pro",
+          "suitable": "מרתון בחינות",
+          "features": ["ללא הגבלה", "20 GB", "Audio + Mind-Map", "Flashcards אוטומטיים"],
+          "price": "₪29",
+          "buttonText": "בחר תוכנית"
+        },
+        {
+          "name": "Team",
+          "suitable": "קבוצות לימוד / מכללות",
+          "features": ["+ ניהול צוותים", "שיתוף ריאלי-טיים", "API"],
+          "price": "החל מ-₪19 למשתמש",
+          "buttonText": "בחר תוכנית"
+        }
+      ],
+      "disclaimer": "*הנחות לסטודנטים, תשלום שנתי-מוזל וביטול בכל רגע."
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "questions": [
+        {
+          "q": "האם TachlesAI מחליף למידה אמיתית?",
+          "a": "לא. הוא חותך משימות טכניות ומפנה זמן ללמידה פעילה."
+        },
+        {
+          "q": "האם זה עובד בעברית בלבד?",
+          "a": "תומך בעברית, רוסית, ערבית ואנגלית כאחד, כולל תמלול דו-לשוני."
+        },
+        {
+          "q": "כמה דקה לוקח ליצור פודקאסט?",
+          "a": "כ-60 שניות ל-10 עמודי PDF בממוצע."
+        },
+        {
+          "q": "אפשר לבטל בכל שלב?",
+          "a": "בוודאי."
+        }
+      ]
+    },
+    "cta": {
+      "title": "די עם לילות לבנים – מצטרפים עכשיו",
+      "desc": "לחץ על \"התחל בחינם\" ותן ל-AI לשמור על הגב שלך בסמסטר הקרוב.",
+      "buttonText": "התחל בחינם עכשיו"
+    },
+    "footer": {
+      "copyright": "כל הזכויות שמורות.",
+      "tagline": "נבנה עם ❤️ על ידי סטודנטים, למען סטודנטים"
+    }
+  }
+}
